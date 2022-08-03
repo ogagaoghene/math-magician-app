@@ -26,7 +26,7 @@ const Calculator = () => {
             <input type="button" value="%" onClick={handleClick} />
           </div>
           <div className="btnDiv btnr1">
-            <input type="button" value="/" onClick={handleClick} />
+            <input type="button" value="&#247;" onClick={handleClick} />
           </div>
           <div className="btn7 btnr2">
             <input type="button" value="7" onClick={handleClick} />
@@ -38,7 +38,7 @@ const Calculator = () => {
             <input type="button" value="9" onClick={handleClick} />
           </div>
           <div className="btnX btnr1">
-            <input type="button" value="*" onClick={handleClick} />
+            <input type="button" value="x" onClick={handleClick} />
           </div>
           <div className="btn4 btnr2">
             <input type="button" value="4" onClick={handleClick} />
