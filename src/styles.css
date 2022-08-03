@@ -4,16 +4,16 @@
   padding: 0;
 }
 
-.container { 
+.container {
   width: 400px;
   height: auto;
-  border:1px solid black;
+  border: 1px solid black;
   margin: 50px auto;
 }
 
 .inputArea {
   background: #363e45;
-  grid-column:1/2;
+  grid-column: 1/2;
   display: block;
 }
 
@@ -22,7 +22,7 @@ input[type=text] {
   margin-top: 20px;
   padding: 20px 30px 20px 35px;
   font-size: 30px;
-  color:white;
+  color: white;
   text-align: right;
   background: transparent;
   border: none;
@@ -34,23 +34,23 @@ input[type=text] {
   height: 600px;
   grid-template-rows: 100px 1fr;
   grid-template-columns: 1fr;
-  grid-gap : 1px;
+  grid-gap: 1px;
 }
 
 .buttons {
   display: grid;
-  grid-template-rows : repeat(5,1fr);
-  grid-template-columns: repeat(4,1fr);
+  grid-template-rows: repeat(5, 1fr);
+  grid-template-columns: repeat(4, 1fr);
 }
 
 .btnr1 {
-  background:#23272a;
-  text-align:center;
+  background: #23272a;
+  text-align: center;
 }
-  
+
 .btnr2 {
-  background:#141921;
-  text-align:center;
+  background: #141921;
+  text-align: center;
 }
 
 .btnr1 > input {
@@ -58,25 +58,25 @@ input[type=text] {
   border: none;
   justify-content: center;
   align-self: end;
-  color:white;
+  color: white;
   font-size: 2em;
   margin-top: 20px;
 }
-  
-.btnr2 > input { 
+
+.btnr2 > input {
   background: transparent;
   border: none;
   justify-content: center;
   align-self: end;
-  color:white;
+  color: white;
   font-size: 2em;
-  margin-top: 20px;  
+  margin-top: 20px;
 }
 
 .colspan {
   grid-column: span 2;
-  background:#141921;
-  text-align:center;
+  background: #141921;
+  text-align: center;
 }
 
 .colspan > input {
@@ -84,7 +84,7 @@ input[type=text] {
   border: none;
   justify-content: center;
   align-self: end;
-  color:white;
+  color: white;
   font-size: 2em;
-  margin-top: 20px;  
+  margin-top: 20px;
 }
