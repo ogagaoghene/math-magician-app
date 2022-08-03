@@ -1,0 +1,90 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  width: 400px;
+  height: auto;
+  border: 1px solid black;
+  margin: 50px auto;
+}
+
+.inputArea {
+  background: #363e45;
+  grid-column: 1/2;
+  display: block;
+}
+
+input[type=text] {
+  box-sizing: border-box;
+  margin-top: 20px;
+  padding: 20px 30px 20px 35px;
+  font-size: 30px;
+  color: white;
+  text-align: right;
+  background: transparent;
+  border: none;
+  width: 400px;
+}
+
+.wrapper {
+  display: grid;
+  height: 600px;
+  grid-template-rows: 100px 1fr;
+  grid-template-columns: 1fr;
+  grid-gap: 1px;
+}
+
+.buttons {
+  display: grid;
+  grid-template-rows: repeat(5, 1fr);
+  grid-template-columns: repeat(4, 1fr);
+}
+
+.btnr1 {
+  background: #23272a;
+  text-align: center;
+}
+
+.btnr2 {
+  background: #141921;
+  text-align: center;
+}
+
+.btnr1 > input {
+  background: transparent;
+  border: none;
+  justify-content: center;
+  align-self: end;
+  color: white;
+  font-size: 2.5em;
+  margin-top: 25px;
+}
+
+.btnr2 > input {
+  background: transparent;
+  border: none;
+  justify-content: center;
+  align-self: end;
+  color: white;
+  font-size: 2.5em;
+  margin-top: 25px;
+}
+
+.colspan {
+  grid-column: span 2;
+  background: #141921;
+  text-align: center;
+}
+
+.colspan > input {
+  background: transparent;
+  border: none;
+  justify-content: center;
+  align-self: end;
+  color: white;
+  font-size: 2.5em;
+  margin-top: 25px;
+}
