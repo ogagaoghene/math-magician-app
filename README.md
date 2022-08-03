@@ -1,6 +1,6 @@
 ![](https://img.shields.io/badge/Microverse-blueviolet)
 
-# Math Magicians Web Application
+# Math Magicians React Calculator Web Application
 
 > This is my first project of the Math Magicians application buiding in React Js.
 
