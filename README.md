@@ -1,17 +1,17 @@
 ![](https://img.shields.io/badge/Microverse-blueviolet)
 
-# Math Magicians Web Application
+# Math Magicians React Calculator Web Application with Events
 
 > This is my first project of the Math Magicians application buiding in React Js.
 
 ## Setup
 Clone this repository
-$ git clone https://github.com/ogagaoghene/math-magician-app.git
-$ cd math_magicians-app
+- git clone https://github.com/ogagaoghene/math-magician-app.git
+- cd math_magicians-app
 
 ## Run project
-$ npm run build
-$ npm run start 
+- npm run build
+- npm run start 
 
 ## Run tests
 To run the test just use the following command!
