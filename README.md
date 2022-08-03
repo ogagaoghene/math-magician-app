@@ -1,10 +1,6 @@
 ![](https://img.shields.io/badge/Microverse-blueviolet)
 
-<<<<<<< HEAD
 # Math Magicians React Calculator Web Application with Events
-=======
-# Math Magicians React Calculator Web Application
->>>>>>> 3a328cbff117ba8b745b45d4ab20f2595970674f
 
 > This is my first project of the Math Magicians application buiding in React Js.
 
