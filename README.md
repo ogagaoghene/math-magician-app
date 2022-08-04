@@ -2,7 +2,7 @@
 
 # Math Magicians React Calculator Web Application with Events
 
-> This is my first project of the Math Magicians application buiding in React Js.
+> This is my first project of the Math Magicians application with React.
 
 ## Setup
 Clone this repository
