@@ -1,0 +1,13 @@
+.grid__container {
+  display: grid;
+  width: 700px;
+  height: auto;
+  border: 1px solid black;
+  margin: 150px auto;
+  padding: 2.5rem;
+  justify-content: center;
+  align-items: center;
+  font-size: 1.5rem;
+  line-height: 1.5rem;
+  border-radius: 6px;
+}

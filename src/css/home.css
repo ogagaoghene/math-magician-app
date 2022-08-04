@@ -1,0 +1,9 @@
+.grid__wrapper {
+  padding: 20px;
+  margin: 15px 0;
+}
+
+.grid__wrapper p {
+  margin-top: 15px;
+  font-size: 1.5rem;
+}
